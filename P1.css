@@ -32,7 +32,7 @@
     border-radius: 50px;
 }
 section{
-    display: flex;
+    /* display: flex; */
     /* background-image: url(wave.svg);
     background-repeat:no-repeat; */
     /* background-attachment: fixed; */
@@ -61,7 +61,29 @@ body{
     display: flex;
 }
 .top-bar{
-   
+   display: flex;
     background-image: url(wave.svg);
     background-repeat: no-repeat;
+}
+.lastpart{
+    /* background-color: red; */
+    width: 60%;
+    margin: auto;
+    margin-top: 0px;
+    font-size: larger;
+}
+#lastid{
+    text-align: center;
+}
+.parent{
+    display: flex;
+   
+}
+.child{
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    padding: 10px;
+    font-size:25px;
+    border-radius: 0 30px 60px 0;
+   
 }
